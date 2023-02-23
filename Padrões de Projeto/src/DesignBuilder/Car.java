@@ -10,6 +10,10 @@ public class Car {
 	private double peso;
 	private double altura;
 	
+	public Car () {
+		
+	}
+	
 	public Car(int id, String marca, String modelo, String cor, int numPortas, double peso, double altura) {
 		this.id = id;
 		this.marca = marca;

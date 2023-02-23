@@ -9,7 +9,7 @@ public class CarBuilder implements Builder{
 	private int numPortas;
 	private double peso;
 	private double altura;
-	
+
 	public CarBuilder id(int id) {
 		this.id = id;
 		return this;

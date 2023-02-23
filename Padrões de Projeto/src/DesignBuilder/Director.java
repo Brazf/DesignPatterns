@@ -4,7 +4,7 @@ public class Director {
 
 	public void buildChevrolet ( CarBuilder builder) {
 
-		builder.id(20).
+		builder.id(25).
 				marca("Chevrolet").
 				modelo("Hatch").
 				cor("Vermelho").
@@ -15,7 +15,7 @@ public class Director {
 	
 	public void buildFiat ( CarBuilder builder ) {
 		
-		builder.id(20).
+		builder.id(25).
 				marca("Fiat").
 				cor("Vermelho").
 				numPortas(4).
