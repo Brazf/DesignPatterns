@@ -17,11 +17,7 @@ public class Product {
 
 		builder.id(2).
 			marca("Chevrolet").
-			modelo("Hatch").
-			cor("Vermelho").
-			numPortas(4).
-			peso(1500.00).
-			altura(1.30);
+			modelo("Hatch");
 		
 		Car carro2 = builder.build();
 		
