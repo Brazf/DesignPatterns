@@ -1,4 +1,4 @@
-package DesignObserver3;
+package Telephone;
 
 public interface iObserver {
 
