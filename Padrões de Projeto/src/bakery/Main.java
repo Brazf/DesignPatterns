@@ -7,9 +7,11 @@ public class Main {
     public static void main(String[] args) {
         // Create the order
         Order order = new Order();
-        order.addCake(new VanillaCake());
         order.addCake(new ChocolateCake());
-
+        order.addCake(new VanillaCake());
+        order.addCake(new StrawberryCake());
+        
+        
         // Print the order
         order.printOrder();
     }
