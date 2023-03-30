@@ -1,7 +1,5 @@
 package DesignIterator;
 
-import java.util.List;
-
 public class DinerMenu {
 
 	static final int MAX_ITENS = 6;

@@ -1,8 +1,5 @@
 package TelephoneTest;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Store a phone number, digit-by-digit
  */
