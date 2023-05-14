@@ -1,11 +1,14 @@
 package designpatterns;
 
+/**
+ * Cake bake class.
+ */
 public abstract class Cake {
-	private final int CAKE_COST = 10;
+    private final int CAKE_COST = 10;
 
-	public int getCost() {
-		return CAKE_COST;
-	}
-	
-	public abstract String getDescription();
+    public int getCost() {
+        return CAKE_COST;
+    }
+
+    public abstract String getDescription();
 }

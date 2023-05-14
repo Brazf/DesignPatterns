@@ -3,6 +3,9 @@ package designpatterns;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Store a collection of cakes being ordered by a customer
+ */
 public class Order {
     private final List<Cake> cakes = new ArrayList<>();
 
