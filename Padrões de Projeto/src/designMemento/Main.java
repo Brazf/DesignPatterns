@@ -3,11 +3,13 @@ package designMemento;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		// NOSSO EXEMPLO SERÁ COM UM EDITOR DE TEXTO
         Originator editor = new Originator();
         Caretaker zelador = new Caretaker();
 
         // Altera o conteúdo do editor
-        editor.setContent("Netinho é um safado!");
+        editor.setContent("Hoje é quinta-feira");
         System.out.println("__________________________________________________\n\nUsuário digita o primeiro conteúdo:");
         System.out.println(editor.getContent());
         System.out.println("__________________________________________________");
@@ -17,7 +19,7 @@ public class Main {
         
         
         // Altera o conteúdo do editor novamente
-        editor.setContent("Netinho é um pilantrinha!");
+        editor.setContent("Hoje é quinta-feira 13:53");
         System.out.println("__________________________________________________\n\nUsuário digita o segundo conteúdo:");
         System.out.println(editor.getContent());
         System.out.println("__________________________________________________");
@@ -27,7 +29,7 @@ public class Main {
         
         
         // Altera o conteúdo do editor mais uma vez
-        editor.setContent("Netinho é um pessoa boa!");
+        editor.setContent("Hoje é quinta-feira 13:53 da manhã");
         System.out.println("__________________________________________________\n\nUsuário digita o terceiro conteúdo:");
         System.out.println(editor.getContent());
         System.out.println("__________________________________________________");
