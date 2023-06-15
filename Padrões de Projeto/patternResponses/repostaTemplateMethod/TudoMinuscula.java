@@ -2,11 +2,6 @@ package repostaTemplateMethod;
 
 public class TudoMinuscula extends ProcessadorTexto{
 
-	@Override
-    protected char[] extrairCaracteres(String texto) {
-        return texto.toCharArray();
-    }
-
     @Override
     protected char[] converterCaracteres(char[] caracteres) {
         char[] caracteresConvertidos = new char[caracteres.length];
@@ -14,11 +9,6 @@ public class TudoMinuscula extends ProcessadorTexto{
             caracteresConvertidos[i] = Character.toLowerCase(caracteres[i]);
         }
         return caracteresConvertidos;
-    }
-
-    @Override
-    protected String juntarCaracteres(char[] caracteresConvertidos) {
-        return new String(caracteresConvertidos);
     }
 		
 }

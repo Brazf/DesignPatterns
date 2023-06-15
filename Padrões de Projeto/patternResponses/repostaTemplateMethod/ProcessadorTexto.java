@@ -14,11 +14,15 @@ public abstract class ProcessadorTexto {
     
 	}
 
-    protected abstract char[] extrairCaracteres(String texto);
+    public char[] extrairCaracteres(String texto) {
+    	return texto.toCharArray();
+    }
 
     protected abstract char[] converterCaracteres(char[] caracteres);
 
-    protected abstract String juntarCaracteres(char[] caracteres);
+    public String juntarCaracteres(char[] caracteresConvertidos) {
+    	return new String(caracteresConvertidos);
+    }
     
     
 	
