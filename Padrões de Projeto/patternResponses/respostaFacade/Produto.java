@@ -14,10 +14,6 @@ public class Produto {
 			this.name=name;
 		}
 
-		@Override
-		public String toString() {
-			return "Produto [productId=" + productId + ", name=" + name + "]";
-		}
 		
 		
 }

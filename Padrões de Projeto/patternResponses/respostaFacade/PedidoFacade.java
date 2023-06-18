@@ -9,7 +9,7 @@ public class PedidoFacade {
 			if(ServicoPagamento.makePayment(produto)) {
 				System.out.println("Pagamento Realizado com Sucesso!");
 				ServicoRemessa.shipProduct(produto);
-				System.out.println("Pruduto Enviado com Sucesso!");
+				System.out.println("Produto Enviado com Sucesso!");
 			}
 		}	
 	}

@@ -7,10 +7,9 @@ public class Main {
 		
 		// CRIAÇÃO DO PRODUTO
 		Produto product = new Produto(2109302, "TV");
-		System.out.println(product);
 		
 		// PROCESSANDO O PRODUTO
-		System.out.println("\nProcesso de Pedido:\n");
+		System.out.println("Processo de Pedido:\n");
 		PedidoFacade.processarPedido(product);
 		
 
