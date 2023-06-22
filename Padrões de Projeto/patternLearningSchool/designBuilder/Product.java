@@ -7,7 +7,7 @@ public class Product {
 		// CRIAÇÃO DO OBJETO SEM O PADRÃO DE PROJETO
 		Car carro1 = new Car(01, "Fiat", "Sedan", "Azul", 2, 1200.00, 1.20);
 		
-		System.out.println(" - - - - Carro 1 - - - -");
+		System.out.println(" - - - - Parte 1 - - - -");
 		System.out.println(carro1);
 		
 		System.out.println("_____________________________________");
@@ -21,7 +21,7 @@ public class Product {
 		
 		Car carro2 = builder.build();
 		
-		System.out.println(" - - - - Carro 2 - - - -");
+		System.out.println(" - - - - Parte 2 - - - -");
 		System.out.println(carro2);
 		
 
@@ -42,7 +42,7 @@ public class Product {
 		
 		
 
-		System.out.println(" - - - - Carro 3 - - - -");
+		System.out.println(" - - - - Parte 3 - - - -");
 		System.out.println(carro3);
 		
 		System.out.println("_____________________________________");
@@ -57,7 +57,7 @@ public class Product {
 		director.buildChevrolet(builder2);
 		
 		
-		System.out.println("- - - - Carro 4 - - - -");
+		System.out.println("- - - - Parte 4 - - - -");
 		
 		System.out.println(builder2.build());
 	}

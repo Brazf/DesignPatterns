@@ -26,7 +26,7 @@ public class Car {
 
 	@Override
 	public String toString() {
-		return "Carro:\nid = " + id + "\nMarca = " + marca + "\nModelo = " + modelo + "\nCor = " + cor + "\nNumero de Portas = "
+		return "Parte:\nid = " + id + "\nMarca = " + marca + "\nModelo = " + modelo + "\nCor = " + cor + "\nNumero de Portas = "
 				+ numPortas + "\nPeso = " + peso + "KG" + "\nAltura = " + altura;
 	}
 	
