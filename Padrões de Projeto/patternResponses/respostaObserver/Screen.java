@@ -23,4 +23,5 @@ public class Screen implements Observer{
             System.out.println("...");
         }
     }
+    
 }

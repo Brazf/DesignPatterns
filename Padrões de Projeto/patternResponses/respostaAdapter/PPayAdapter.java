@@ -10,7 +10,6 @@ public class PPayAdapter implements PPay {
 
 	@Override
 	public String getCustCardNo() {
-		
 		return mpay.getCreditCardNo();
 	}
 
@@ -23,7 +22,7 @@ public class PPayAdapter implements PPay {
 	@Override
 	public String getCardExpMonthDate() {
 		
-		return mpay.getCardExpMonth();
+		return mpay.getCardExpMonth() + ;
 	}
 
 	@Override
